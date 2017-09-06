@@ -8,5 +8,5 @@ def prime? (n)
   end
 
   value = array.all?{|num|(n % num) == 0}
-  
+binding.pry
 end
