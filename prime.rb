@@ -7,9 +7,9 @@ def prime? (n)
     array[i] = num
   end
 
-  value = array.any? do |num|
+  value = array.all? do |num|
     (n % num) == 0
     
   end
-  not value
+  value
 end
