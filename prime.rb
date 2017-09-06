@@ -6,7 +6,7 @@ def prime? (n)
   (2...n).each_with_index do |num,i|
     array[i] = num
   end
-  
+
   value = array.any? do |num|
     (n % num) == 0
     
